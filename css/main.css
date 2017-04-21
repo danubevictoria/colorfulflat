@@ -6,15 +6,16 @@
 img {
   width: 200px;
   height: 200px;
+  margin-bottom: 30px;
 }
 
 /* NAVIGATION */
-.nav {
+.top-nav {
 	background-color: #A2CED7; 
 }
 
 nav.nav {
-	position: absolute;
+	position: fixed;
 	z-index: 1;
 	width: 100%;
 	margin: 0;
@@ -30,7 +31,7 @@ div.nav {
 	font-weight: bold;
 }
 
-.nav {
+.top-nav ul.nav {
 	float: right;
 	margin-right: 100px;
 	margin-top: 20px;
@@ -38,15 +39,21 @@ div.nav {
 
 nav .nav-pills a {
 	color: #333333;
+	font-size: 18px;
 }
 
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
+.top-nav .nav-pills > li.active > a,
+.top-nav .nav-pills > li.active > a:hover,
+.top-nav .nav-pills > li.active > a:focus {
   background-color: #333333;
 }
 
 /* CAROUSEL */
+.carousel {
+	position: relative;
+	top: 50px;
+}
+
 .carousel-inner .item img {
 	width: 100%;
 }
@@ -71,4 +78,33 @@ nav .nav-pills a {
 .section-description {
 	color: #ffffff;
 	font-size: 18px;
+}
+
+.portfolio-btns .nav-pills a{
+	color: #fff;
+	background-color: transparent;
+	font-size: 18px;
+}
+
+.portfolio-btns .nav-pills > li.active > a,
+.portfolio-btns .nav-pills > li.active > a:hover,
+.portfolio-btns .nav-pills > li.active > a:focus {
+  background-color: transparent;
+  border: solid 2px #fff;
+}
+
+.portfolio-btns {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.btn {
+	margin: 0;
+	background-color: #fff;
+	width: 140px;
+	height: 50px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	margin-bottom: 50px;
 }
