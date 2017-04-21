@@ -108,3 +108,37 @@ nav .nav-pills a {
 	font-size: 18px;
 	margin-bottom: 50px;
 }
+
+/* TEMPLATES */
+#templates {
+	background-color: #EFEFEF;
+}
+
+/* TEAM */
+#team {
+	background-color: #DDB4C4;
+}
+
+/* BLOG */
+#blog {
+	background-color: #B6D6E1;
+}
+
+/* CONTACT */
+#contact {
+	background-color: #333333;
+}
+
+/* FOOTER */
+footer {
+	background-color: #333333;
+	color: #fff;
+}
+
+footer span.footer-text {
+	color: #847D65;
+}
+
+div.footer-text {
+	float: right;
+}
