@@ -3,6 +3,11 @@
 	padding: 0;
 }
 
+section {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
 img {
   width: 200px;
   height: 200px;
@@ -23,9 +28,10 @@ nav.nav {
 
 div.nav {
 	float: left;
-	line-height: 40px;
+	line-height: 30px;
 	margin-left: 100px;
 	margin-top: 20px;
+	margin-bottom: 20px;
 	font-size: 20px;
 	letter-spacing: 2px;
 	font-weight: bold;
@@ -112,6 +118,25 @@ nav .nav-pills a {
 /* TEMPLATES */
 #templates {
 	background-color: #EFEFEF;
+}
+
+#templates .section-heading,
+#templates .section-description {
+	color: #5A5A5A;
+}
+
+#templates #btn1 {
+	background-color: #99D3A2;
+	color: #fff;
+}
+
+#templates #btn2 {
+	background-color: #A2D1D9;
+	color: #fff;
+}
+
+hr {
+	border-color: #E5E5E5;
 }
 
 /* TEAM */
