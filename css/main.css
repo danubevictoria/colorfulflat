@@ -144,6 +144,59 @@ hr {
 	background-color: #DDB4C4;
 }
 
+#team img {
+	width: 100%;
+	margin: 0;
+}
+
+#team .thumbnail h4 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+#team .thumbnail h5 {
+	font-weight: bold;
+}
+
+#team i {
+	color: #fff;
+}
+
+#team .facebook {
+	color: #fff;
+	background-color: #29409F;
+	border-radius: 40px;
+	height: 40px;
+	width: 40px;
+	line-height: 50px;
+	display: inline-block;
+	margin: 10px;
+}
+
+#team .twitter {
+	background-color: #309DF2;
+	border-radius: 40px;
+	height: 40px;
+	width: 40px;
+	line-height: 50px;
+	display: inline-block;
+	margin: 10px;
+}
+
+#team .pinterest {
+	background-color: #9F233B;
+	border-radius: 40px;
+	height: 40px;
+	width: 40px;
+	line-height: 50px;
+	display: inline-block;
+	margin: 10px;
+}
+
+#team .team-header {
+	margin-bottom: 40px;
+}
+
 /* BLOG */
 #blog {
 	background-color: #B6D6E1;
