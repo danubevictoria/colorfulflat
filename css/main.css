@@ -144,25 +144,27 @@ hr {
 	background-color: #DDB4C4;
 }
 
-#team img {
+#team img,
+#recentposts img {
 	width: 100%;
 	margin: 0;
 }
 
-#team .thumbnail h4 {
+.thumbnail h4 {
 	font-size: 32px;
 	font-weight: bold;
 }
 
-#team .thumbnail h5 {
+.thumbnail h5 {
 	font-weight: bold;
 }
 
-#team i {
+#team i,
+#recentposts i {
 	color: #fff;
 }
 
-#team .facebook {
+.facebook {
 	color: #fff;
 	background-color: #29409F;
 	border-radius: 40px;
@@ -173,7 +175,7 @@ hr {
 	margin: 10px;
 }
 
-#team .twitter {
+.twitter {
 	background-color: #309DF2;
 	border-radius: 40px;
 	height: 40px;
@@ -183,7 +185,7 @@ hr {
 	margin: 10px;
 }
 
-#team .pinterest {
+.pinterest {
 	background-color: #9F233B;
 	border-radius: 40px;
 	height: 40px;
@@ -193,12 +195,14 @@ hr {
 	margin: 10px;
 }
 
-#team .team-header {
+#team .header,
+#recentposts .header,
+#recentposts .posts {
 	margin-bottom: 40px;
 }
 
-/* BLOG */
-#blog {
+/* RECENT POSTS */
+#recentposts {
 	background-color: #B6D6E1;
 }
 
