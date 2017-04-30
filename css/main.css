@@ -139,6 +139,10 @@ hr {
 	border-color: #E5E5E5;
 }
 
+#templates .template-img {
+	margin-top: 40px;
+}
+
 /* TEAM */
 #team {
 	background-color: #DDB4C4;
