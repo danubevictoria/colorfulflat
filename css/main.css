@@ -160,7 +160,8 @@ hr {
 }
 
 #team i,
-#recentposts i {
+#recentposts i,
+footer i {
 	color: #fff;
 }
 
@@ -195,6 +196,16 @@ hr {
 	margin: 10px;
 }
 
+.flickr {
+	background-color: #9F233B;
+	border-radius: 40px;
+	height: 40px;
+	width: 40px;
+	line-height: 50px;
+	display: inline-block;
+	margin: 10px;
+}
+
 #team .header,
 #recentposts .header,
 #recentposts .posts {
@@ -211,6 +222,10 @@ hr {
 	background-color: #333333;
 }
 
+#contact #message {
+	height: 200px;
+}
+
 /* FOOTER */
 footer {
 	background-color: #333333;
@@ -223,4 +238,16 @@ footer span.footer-text {
 
 div.footer-text {
 	float: right;
+	line-height: 50px;
+}
+
+footer div {
+	display: inline;
+}
+
+footer .facebook,
+footer .pinterest,
+footer .twitter,
+footer .flickr {
+	background-color: #535353;
 }
