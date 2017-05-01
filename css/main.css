@@ -20,8 +20,8 @@ img {
 }
 
 nav.nav {
-	/*position: fixed;
-	z-index: 999;*/
+	position: fixed;
+	z-index: 20000;
 	width: 100%;
 	margin: 0;
 	white-space: nowrap;
@@ -70,21 +70,30 @@ nav .nav-pills a {
 }
 
 div.menu {
-	float: right;
+	right: 0;
 	padding-right: 30px;
+	position: fixed;
+	z-index: 21000;
 }
 
 /* CAROUSEL */
 .carousel {
 	position: relative;
-	top: 50px;
+	top: 40px;
+	padding-top: 40px;
 }
 
 .carousel-inner .item img {
 	width: 100%;
+	height: auto;
+	max-width: 100%;
 }
 
 /* SERVICES */
+#services {
+	padding-top: 50px;
+}
+
 .container {
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -93,6 +102,7 @@ div.menu {
 /* PORTFOLIO */
 #portfolio {
 	background-color: #99D2A5;
+	padding-top: 80px;
 }
 
 .section-heading {
@@ -135,6 +145,19 @@ div.menu {
 	margin-bottom: 50px;
 }
 
+#portfolio ul.nav {
+	display: inline-block;
+}
+
+#portfolio div.dropdown .btn {
+	margin: 0;
+}
+
+#portfolio div.dropdown-menu > button {
+	width: 100%;
+	margin: 0;
+}
+
 /* TEMPLATES */
 #templates {
 	background-color: #EFEFEF;
@@ -166,6 +189,7 @@ hr {
 /* TEAM */
 #team {
 	background-color: #DDB4C4;
+	padding-top: 80px;
 }
 
 #team img,
@@ -239,11 +263,13 @@ footer i {
 /* RECENT POSTS */
 #recentposts {
 	background-color: #B6D6E1;
+	padding-top: 80px;
 }
 
 /* CONTACT */
 #contact {
 	background-color: #333333;
+	padding-top: 80px;
 }
 
 #contact #message {
@@ -263,6 +289,8 @@ footer span.footer-text {
 div.footer-text {
 	float: right;
 	line-height: 50px;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 footer div {
@@ -277,9 +305,28 @@ footer .flickr {
 }
 
 /* RESPONSIVE */
+/* width <= 480px */
 @media (max-width: 480px) {
 	div.nav {
 		font-size: 14px;
 		margin-left: 30px;
+	}
+
+	.section-heading {
+		font-size: 26px;
+	}
+
+	.section-description {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 991px) and (max-width: 1524px) {
+	.col-md-2 {
+		width: 33.33333333%;
+	}
+
+	#team .team-pics .col-md-offset-3{
+		margin-left: 0;
 	}
 }
