@@ -20,10 +20,12 @@ img {
 }
 
 nav.nav {
-	/*position: fixed;
-	z-index: 1;*/
+	position: fixed;
+	z-index: 1;
 	width: 100%;
 	margin: 0;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 div.nav {
@@ -63,8 +65,13 @@ nav .nav-pills a {
 	list-style-type: none;
 }
 
-.navbar menu {
-	display: none;
+.menu a {
+	color: #333333;
+}
+
+div.menu {
+	float: right;
+	padding-right: 30px;
 }
 
 /* CAROUSEL */
