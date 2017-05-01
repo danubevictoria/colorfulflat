@@ -20,8 +20,8 @@ img {
 }
 
 nav.nav {
-	position: fixed;
-	z-index: 1;
+	/*position: fixed;
+	z-index: 1;*/
 	width: 100%;
 	margin: 0;
 }
@@ -52,6 +52,19 @@ nav .nav-pills a {
 .top-nav .nav-pills > li.active > a:hover,
 .top-nav .nav-pills > li.active > a:focus {
   background-color: #333333;
+}
+
+.navbar i {
+	color: #000000;
+	text-decoration: none;
+}
+
+.navbar li {
+	list-style-type: none;
+}
+
+.navbar menu {
+	display: none;
 }
 
 /* CAROUSEL */
